@@ -15,7 +15,7 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="hexo + gitub 搭建个人博客 node配置环境linux操作系统1.浏览器打开https://nodejs.org ,下载100.14.2版本的压缩包2.默认下载到/root/下载 路径下，解压：1tar -xf node-v10.14.2-linux-x64.tar 3.创建node和npm的软链接(能够全局使用node/npm命令)12ln -s /root/下载/node-v10.">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-12-25T02:44:38.780Z">
+<meta property="og:updated_time" content="2018-12-25T08:24:38.904Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="笔记">
 <meta name="twitter:description" content="hexo + gitub 搭建个人博客 node配置环境linux操作系统1.浏览器打开https://nodejs.org ,下载100.14.2版本的压缩包2.默认下载到/root/下载 路径下，解压：1tar -xf node-v10.14.2-linux-x64.tar 3.创建node和npm的软链接(能够全局使用node/npm命令)12ln -s /root/下载/node-v10.">
@@ -151,12 +151,15 @@
 <p>##安装项目依赖包<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure></p>
 <p>##启动项目服务<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure></p>
 <p>##项目预览<br>在浏览器地址栏中输入：<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 回车访问</p>
+<h2 id="编译代码"><a href="#编译代码" class="headerlink" title="编译代码"></a>编译代码</h2><p>通过hexo框架将md格式的文档转换为html+css+js<br>hexo g</p>
+<h2 id="推送"><a href="#推送" class="headerlink" title="推送"></a>推送</h2><p>1.安装deploy依赖包<br>nmp intall hexo-deploy-git –save<br>2.上传<br>hexo d</p>
+<h2 id="清理缓存"><a href="#清理缓存" class="headerlink" title="清理缓存"></a>清理缓存</h2><p>hexo cleam</p>
 <p>#回家练习<br>1.安装node<br>2.安装hexo脚手架<br>3.安装git<br>打开<a href="https://gits-scm.com下载安装包并安装" target="_blank" rel="noopener">https://gits-scm.com下载安装包并安装</a><br>4.初始化项目<br>在桌面空白区域鼠标右键选择“git bash here”<br>git init blog<br>5.进入blong<br>cd blong<br>6.安装依赖<br>npm install<br>7.启动服务<br>hexo s<br>8.预览<br>9.切换主题<br>浏览器打开<a href="http://www.hexo.io，选择主题，搜索栏搜索miho" target="_blank" rel="noopener">www.hexo.io，选择主题，搜索栏搜索miho</a><br>在blog所在路径：</p>
 <p>找到blog目录的_config.yml,修改 theme：<br>10.换图</p>
 
             <div class="post-copyright">
     <div class="content">
-        <p>最后更新： 2018年12月25日 10:44</p>
+        <p>最后更新： 2018年12月25日 16:24</p>
         <p>原始链接： <a class="post-url" href="/2018/12/24/笔记/" title="笔记">http://yoursite.com/2018/12/24/笔记/</a></p>
         <footer>
             <a href="http://yoursite.com">
@@ -267,7 +270,7 @@
 
     <aside class="post-toc-pos post-toc-top" id="post-toc">
         <nav class="post-toc-wrap">
-            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#node配置环境"><span class="post-toc-text">node配置环境</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#linux操作系统"><span class="post-toc-text">linux操作系统</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#windows环境下："><span class="post-toc-text">windows环境下：</span></a></li></ol></li></ol>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#node配置环境"><span class="post-toc-text">node配置环境</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#linux操作系统"><span class="post-toc-text">linux操作系统</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#windows环境下："><span class="post-toc-text">windows环境下：</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#编译代码"><span class="post-toc-text">编译代码</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#推送"><span class="post-toc-text">推送</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#清理缓存"><span class="post-toc-text">清理缓存</span></a></li></ol></li></ol>
         </nav>
     </aside>
     
